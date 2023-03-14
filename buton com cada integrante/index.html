@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+            <div class="div" id="slctCountries"></div>
+
+        <script>
+            let countries  = ["United state", "India", "Turkey","aaa"]
+
+          countries.forEach(function(item){
+            let o=document.createElement("button");
+            o.text =item;
+            o.value =item;
+            slctCountries.appendChild(o) 
+          })
+                
+
+        </script>
+
+</body>
+</html>
